@@ -11,6 +11,5 @@ docker-php-ext-configure gd --with-jpeg-dir=/usr/lib --with-freetype-dir=/usr/li
 
 docker-php-ext-install curl zip gd
 
-
 rm -rf /var/lib/apt/lists/
 apt-get clean
