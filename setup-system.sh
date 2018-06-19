@@ -9,7 +9,7 @@ apt-get install -qy libcurl4-openssl-dev zlib1g-dev unzip libgd-dev libjpeg-dev 
 
 docker-php-ext-configure gd --with-jpeg-dir=/usr/lib --with-freetype-dir=/usr/lib
 
-docker-php-ext-install curl zip gd
+docker-php-ext-install curl zip gd pdo pdo_mysql
 
 rm -rf /var/lib/apt/lists/
 apt-get clean
